@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
              <span className="text-ruix-400 font-mono text-sm tracking-[0.3em] uppercase">Logistika 4.0</span>
           </div>
           
-          <h1 className="text-5xl md:text-9xl font-bold leading-[0.9] tracking-tighter mb-10 mix-blend-overlay opacity-90">
+          <h1 className="text-5xl md:text-9xl font-bold leading-[0.9] tracking-tighter mb-10 text-white">
             AUTOMATIZUJ <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-ruix-400 to-white">NABAVKU.</span>
           </h1>
