@@ -24,7 +24,7 @@ const Hero: React.FC = () => {
           
           <h1 className="text-5xl md:text-9xl font-bold leading-[0.9] tracking-tighter mb-10 text-white">
             AUTOMATIZUJ <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-ruix-400 to-white">NABAVKU.</span>
+            <span className="text-white">NABAVKU.</span>
           </h1>
           
           <div className="flex flex-col md:flex-row items-start md:items-end justify-between gap-12 border-t border-white/20 pt-8 mt-12">
