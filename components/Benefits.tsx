@@ -31,7 +31,7 @@ const Benefits: React.FC = () => {
         {/* Block 3: Image */}
          <div className="h-96 md:h-auto relative overflow-hidden group border-r border-white/10 md:order-3">
           <img 
-            src="https://images.unsplash.com/photo-1605218427368-35b81a3d3663?q=80&w=2070&auto=format&fit=crop" 
+            src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?q=80&w=2070&auto=format&fit=crop" 
             alt="Shipping Logistics Speed" 
             className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-100 group-hover:scale-110"
           />
