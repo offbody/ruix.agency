@@ -1,13 +1,14 @@
 import { GoogleGenAI } from "@google/genai";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
-
 export const analyzeProcurementNeeds = async (
   industry: string,
   companySize: string,
   challenges: string
 ): Promise<string> => {
   try {
+    // Initialize the client here to prevent app-level crashes if API Key is missing on load
+    const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+
     const prompt = `
       Ti si stručni konsultant za nabavku u kompaniji ruix.agency koja posluje u Srbiji.
       Korisnik je uneo sledeće podatke o svojoj kompaniji:
